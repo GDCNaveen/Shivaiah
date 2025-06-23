@@ -23,8 +23,8 @@ export const LoginPage = ({ onLogin }: LoginPageProps) => {
 
     // Check credentials
     const validCredentials = [
-      { username: 'Bunny', password: '123' },
-      { username: 'Shivaiah', password: '108' }
+      { username: 'Padma', password: '123' },
+      { username: 'Rama', password: '108' }
     ];
 
     const isValid = validCredentials.some(
@@ -37,7 +37,7 @@ export const LoginPage = ({ onLogin }: LoginPageProps) => {
         localStorage.setItem('algot_academy_login', JSON.stringify({
           username,
           timestamp: new Date().toISOString(),
-          expiryDate: '2025-06-23T22:58:00'
+          expiryDate: '2025-06-23T23:03:00'
         }));
         
         toast({
