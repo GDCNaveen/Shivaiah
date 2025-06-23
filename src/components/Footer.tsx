@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="text-center mb-8">
           <div className="flex justify-center mb-6">
             <div className="w-24 h-24 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
-              <span className="text-2xl font-bold text-white">N</span>
+              <span className="text-2xl font-bold text-white">Naveen</span>
             </div>
           </div>
           
@@ -39,7 +39,7 @@ export const Footer = () => {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <Copyright className="h-5 w-5 text-gray-400" />
-            <span className="text-lg">2024 Algot Academy</span>
+            <span className="text-lg">2025 Algot Academy</span>
           </div>
           <p className="text-gray-400">
             All rights reserved. Educational content designed for student success.
