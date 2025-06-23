@@ -37,7 +37,7 @@ export const LoginPage = ({ onLogin }: LoginPageProps) => {
         localStorage.setItem('algot_academy_login', JSON.stringify({
           username,
           timestamp: new Date().toISOString(),
-          expiryDate: '2025-06-23T22:54:00'
+          expiryDate: '2025-06-23T22:58:00'
         }));
         
         toast({
